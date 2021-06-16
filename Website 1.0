@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <title>Francisco - portfolio</title>
+    
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="https://static.tumblr.com/6oejpuu/q13qut7uz/img_e5633_copia.png" type="image/x-icon">  
+
+       
+        
+        
+
+<style>
+    body,html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+background: rgb(249,254,255);
+background: linear-gradient(140deg, rgba(249,254,255,1) 0%, rgba(169,210,255,1) 100%);
+}
+
+a:link {
+  color: white;
+  text-decoration: underline;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
+  background-color: white;
+  text-decoration: none;
+}
+
+main {
+    height: 100vh;
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: center;
+  align-items: center;
+}
+.mainCard {
+  width: 620px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.profilePhotoDiv {
+  padding: 0px 20px;
+  z-index: 1;
+}
+.profilePhoto {
+  width: 200px;
+  border-radius: 110px;
+  border: 10px solid white;
+}
+.welcomeText {
+
+  font-size: 1.5rem;
+  padding: 0px 30px;
+  border-radius: 10px;
+  background: rgb(61,145,162);
+  background: linear-gradient(58deg, rgba(61,145,162,1) 0%, rgba(0,212,255,1) 75%);
+}
+.welcomeText:a {
+    color: gray;
+}
+.welcomeText > h1 {
+    font-size: 2em;
+    line-height: 0.2;
+}
+
+.footer {
+  position: fixed;
+}
+
+@media screen and (max-width: 620px) {
+body {
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+   margin: 0;
+padding: 0;
+}
+
+html {
+  height: -webkit-fill-available;
+   
+}
+  .mainCard {
+    width: 70vw;
+    min-width: 310px;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    font-size: 1rem;
+  }
+   .profilePhotoDiv {
+    margin-bottom: -90px;
+    margin-right: -50%;
+  }
+  .profilePhoto {
+    width: 150px;
+    border-radius: 79px;
+    border: 8px solid white;
+  }
+  .welcomeText {
+    padding: 50px 20px 20px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+}
+
+</style>
+	<!--Additional elements for browsers and robots go here goes here-->
+
+</head>
+
+
+<body>
+  <main>
+    <article class="mainCard">
+      <div class="profilePhotoDiv">
+        <img src="https://64.media.tumblr.com/6e0170370e34fcd59da6c40e3e225d69/c548f4e8fa173664-bf/s1280x1920/251397e7b073fd573a6a5f887099f515c2698052.jpg" alt="Profile photo" title="Hello there!" class="profilePhoto">
+      </div>
+      <article class="welcomeText">
+        <h1><i>HI THERE!</i></h1>
+        <p>This site is currently under construction, but you can find me on <a target="_blank" href="https://www.instagram.com/fcoggr/">Instagram</a> and <a target="_blank" href="https://www.linkedin.com/in/fcogimeno/">LinkedIn</a>.</p>
+      </article>
+    </article>
+  </main>
+
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
